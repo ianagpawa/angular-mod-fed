@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ang3": {
+    "angular-mod-fed": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
-            "outputPath": "dist/ang3",
+            "outputPath": "dist/angular-mod-fed",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -63,11 +63,11 @@
           "builder": "ngx-build-plus:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ang3:build:production",
+              "browserTarget": "angular-mod-fed:build:production",
               "extraWebpackConfig": "webpack.config.js"
             },
             "development": {
-              "browserTarget": "ang3:build:development"
+              "browserTarget": "angular-mod-fed:build:development"
             }
           },
           "defaultConfiguration": "development",
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "ngx-build-plus:extract-i18n",
           "options": {
-            "browserTarget": "ang3:build",
+            "browserTarget": "angular-mod-fed:build",
             "extraWebpackConfig": "webpack.config.js"
           }
         },

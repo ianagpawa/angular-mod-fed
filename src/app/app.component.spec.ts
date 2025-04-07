@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ang3'`, () => {
+  it(`should have as title 'angular-mod-fed'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ang3');
+    expect(app.title).toEqual('angular-mod-fed');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ang3 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-mod-fed app is running!');
   });
 });

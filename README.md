@@ -1,10 +1,19 @@
-# Ang3
+# angular-mod-fed
+##### Simple Angular (v16) application using @angular-architects config for module federation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+## Prerequesites
+Install `node`.
+* [Node 18.20.4](https://nodejs.org/en/blog/release/v18.20.4/)
+    * Npm 9.6.7
 
-## Development server
+## Quick start
+Clone repo: `git clone https://github.com/ianagpawa/angular-mod-fed.git`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Setup
+Navigate to root of downloaded repo folder and run command `npm install`.
+
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4210/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

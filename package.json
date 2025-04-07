@@ -1,9 +1,9 @@
 {
-  "name": "ang3",
+  "name": "angular-mod-fed",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve ang3 -o --port 4210",
+    "start": "ng serve angular-mod-fed -o --port 4210",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
