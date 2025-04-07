@@ -3,7 +3,7 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 module.exports = withModuleFederationPlugin({
     name: 'ang-remote',
     exposes: {
-        './Module': './src/app/app.module.ts'
+        './Module': './src/app/export/export.module.ts'
     },
     shared: {
         ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
