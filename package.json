@@ -1,6 +1,7 @@
 {
   "name": "angular-mod-fed",
   "version": "0.0.0",
+  "port": 4210,
   "scripts": {
     "ng": "ng",
     "start": "ng serve angular-mod-fed -o --port 4210",
