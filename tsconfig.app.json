@@ -7,7 +7,8 @@
   },
   "files": [
     "src/main.ts",
-    "src/remote-bootstrap.ts"
+    "src/remote-bootstrap.ts",
+    "src/remote-bootstrap-component.ts"
   ],
   "include": [
     "src/**/*.d.ts"

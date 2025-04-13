@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { ExportModule } from './export/export.module';
+import { ExportComponent } from './export/export.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,8 @@ import { ExportModule } from './export/export.module';
   imports: [
     BrowserModule,
     HttpClientModule,
-    ExportModule
+    
+    ExportComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

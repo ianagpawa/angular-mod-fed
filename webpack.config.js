@@ -31,7 +31,8 @@ module.exports = {
         name: "angRemote",
         filename: "remoteEntry.js",
         exposes: {
-            './Module':'./src/remote-bootstrap.ts'
+            './Module':'./src/remote-bootstrap.ts',
+            './Component': './src/remote-bootstrap-component.ts',
         },
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
