@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ExportComponent } from './export/export.component';
+import { WebComponentModule } from './webcomponent/webcomponent.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ExportComponent } from './export/export.component';
     BrowserModule,
     HttpClientModule,
     
-    ExportComponent
+    ExportComponent,
+    WebComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
